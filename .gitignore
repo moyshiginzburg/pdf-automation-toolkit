@@ -3,3 +3,4 @@ temp_cache/
 __pycache__/
 *.pyc
 .env
+venv/

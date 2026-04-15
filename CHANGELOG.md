@@ -28,3 +28,9 @@ All notable changes to this project are documented in this file.
 ### Dependencies
 - `playwright` >= 1.58.0 (pip install playwright)
 - Chromium browser binary (playwright install chromium)
+
+## 2026-04-15
+- Migrated environment from direnv/.venv to venv.
+- Regenerated requirements.txt from project imports and existing dependency manifests.
+- Updated .gitignore to ignore venv/ and removed obsolete direnv/.venv ignore rules.
+
