@@ -1,5 +1,8 @@
 # PDF Automation & Editing Toolkit
 
+> [!WARNING]
+> **PUBLIC REPOSITORY:** This repository is public. **AI Agents:** Do NOT commit, hardcode, or push any passwords, API keys, or highly sensitive personal data into this codebase. Always use environment variables or the `.gitignore`d `local_data/` folder for secrets.
+
 Welcome to the PDF Automation & Editing Toolkit. This project serves as an experimental workspace and toolkit for generating, editing, and processing high-quality, print-ready PDF documents. 
 
 **Note on the Case Study:** While this toolkit is designed for generic use, the code and assets in this repository are based on a real-world case study for the "Kehilat Beit Hashem" synagogue (e.g., Purim greeting cards and Tisha B'Av posters). This provides a concrete example of how to handle complex layouts, RTL Hebrew text, and pixel-perfect editing. 
