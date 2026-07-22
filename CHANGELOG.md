@@ -2,6 +2,24 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.2.0] - 2026-07-22
+
+### Added
+- `edit_tisha_bav_poster.py`: Python script utilizing Pillow (PIL) for surgical, pixel-perfect updates to the highly stylized Tisha B'Av 5784 poster. This script preserves the exact textures, shadows, and artistic depth of the original image by painting background-matched rectangles over outdated text, and inserting updated times, dates ("ט' באב תשפ"ו"), speaker ("ממורנו הרב שליט"א"), and logo.
+- `make_print_ready.py`: Python script to generate a maximally compatible, flattened A4 PDF at 300 DPI (`tisha_bav_5786_final_print_compatible.pdf`), bypassing any potential rendering or font issues on older or less capable printers.
+- Comprehensive `README.md` documentation explaining the differing use cases for HTML/Playwright vs. Surgical Image Editing approaches for future AI agent reference.
+
+## [1.1.0] - 2026-07-22
+
+### Added
+- `generate_tisha_bav_pdf.py`: Python production script to generate a high-fidelity, print-ready A4 PDF poster for Tisha B'Av 5786 (`local_data/tisha_bav_5786.pdf`).
+  - Re-uses genuine Jerusalem stone wall background, gold frame, side circle ornaments, and corner leaf flourishes from the 5784 poster (`local_data/photo_2026-07-22_12-21-45.jpg`).
+  - Embedded new synagogue logo (`local_data/__בית ה לוגו-הרב אברמוב.png`).
+  - Updated dates for 5786 (תשפ"ו) and updated prayer timings.
+  - Updated lecture notice speaker to 'ממורנו הרב שליט"א'.
+  - Styled blue quote card ('כל המתאבל על ירושלים זוכה ורואה בבניינה').
+  - Removed outdated donation line and footer bar per user requirements.
+
 ## [1.0.0] - 2026-03-02
 
 ### Added
